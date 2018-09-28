@@ -30,11 +30,7 @@
 
   // Supported languages (consistent across all apps).
   window['BlocklyGamesLanguages'] = [
-    'ar', 'be', 'be-tarask', 'bg', 'bn', 'br', 'cs', 'da', 'de', 'el',
-    'en', 'es', 'fa', 'fi', 'fr', 'gl', 'he', 'hi', 'hu', 'id', 'is',
-    'it', 'ja', 'kab', 'ko', 'lt', 'lv', 'ms', 'my', 'nb', 'nl', 'pl',
-    'pms', 'pt', 'pt-br', 'ru', 'sc', 'sk', 'sl', 'sq', 'sr', 'sv',
-    'th', 'tr', 'uk', 'vi', 'zh-hans', 'zh-hant'
+    'en', 'zh-hans' 
   ];
 
   // Use a series of heuristics that determine the likely language of this user.
@@ -58,7 +54,7 @@
       }
     }
   }
-  window['BlocklyGamesLang'] = lang;
+  window['BlocklyGamesLang'] = 'zh-hans';
 
   // Load the chosen language pack.
   var script = document.createElement('script');
