@@ -23,6 +23,14 @@
  */
 'use strict';
 
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?100f37fd2ff6add2c846426f6a7d55d5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
 (function() {
   // Application path.
   var appName = location.pathname.match(/\/([-\w]+)(\.html)?$/);
