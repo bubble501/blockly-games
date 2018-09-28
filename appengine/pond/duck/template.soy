@@ -29,13 +29,30 @@
  */
 {template .start}
   {call .messages /}
-  <h1>
+
+  
+  <table width="100%">
+    <tr>
+      <td>
+          <h1>
     {call BlocklyGames.soy.titleSpan}
       {param appName}
         {msg meaning="Games.pond" desc="IBID"}Pond{/msg}
       {/param}
     {/call}
-  </h1>
+  </h1> 
+      </td>
+      <td class="farSide">
+       <a class="btn-text" style="
+    display: inline-block;
+">讨论群<img src="./qun.jpg" style="
+"></a><a class="btn-text" style="
+    display: inline-block;
+">公众号<img src="./gzh.jpg" style="
+"></a>
+      </td>
+    </tr>
+  </table>
 
   {call Pond.soy.visualization /}
 
